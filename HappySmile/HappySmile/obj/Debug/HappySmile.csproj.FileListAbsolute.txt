@@ -1,0 +1,12 @@
+C:\Users\estevam.mfcampos\source\repos\HappySmile\HappySmile\bin\Debug\HappySmile.exe.config
+C:\Users\estevam.mfcampos\source\repos\HappySmile\HappySmile\bin\Debug\HappySmile.exe
+C:\Users\estevam.mfcampos\source\repos\HappySmile\HappySmile\bin\Debug\HappySmile.pdb
+C:\Users\estevam.mfcampos\source\repos\HappySmile\HappySmile\obj\Debug\HappySmile.csproj.AssemblyReference.cache
+C:\Users\estevam.mfcampos\source\repos\HappySmile\HappySmile\obj\Debug\HappySmile.Properties.Resources.resources
+C:\Users\estevam.mfcampos\source\repos\HappySmile\HappySmile\obj\Debug\HappySmile.csproj.GenerateResource.cache
+C:\Users\estevam.mfcampos\source\repos\HappySmile\HappySmile\obj\Debug\HappySmile.csproj.CoreCompileInputs.cache
+C:\Users\estevam.mfcampos\source\repos\HappySmile\HappySmile\obj\Debug\HappySmile.exe
+C:\Users\estevam.mfcampos\source\repos\HappySmile\HappySmile\obj\Debug\HappySmile.pdb
+C:\Users\estevam.mfcampos\source\repos\HappySmile\HappySmile\obj\Debug\HappySmile.frmLogin.resources
+C:\Users\estevam.mfcampos\source\repos\HappySmile\HappySmile\obj\Debug\HappySmile.frmPrincipal.resources
+C:\Users\estevam.mfcampos\source\repos\HappySmile\HappySmile\obj\Debug\HappySmile.frmUsuario.resources
