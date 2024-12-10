@@ -10,3 +10,16 @@ C:\Users\estevam.mfcampos\source\repos\HappySmile\HappySmile\obj\Debug\HappySmil
 C:\Users\estevam.mfcampos\source\repos\HappySmile\HappySmile\obj\Debug\HappySmile.frmLogin.resources
 C:\Users\estevam.mfcampos\source\repos\HappySmile\HappySmile\obj\Debug\HappySmile.frmPrincipal.resources
 C:\Users\estevam.mfcampos\source\repos\HappySmile\HappySmile\obj\Debug\HappySmile.frmUsuario.resources
+C:\Users\TEMP.SENACEDU.010\source\repos\HappySmile\HappySmile\bin\Debug\HappySmile.exe.config
+C:\Users\TEMP.SENACEDU.010\source\repos\HappySmile\HappySmile\bin\Debug\HappySmile.exe
+C:\Users\TEMP.SENACEDU.010\source\repos\HappySmile\HappySmile\bin\Debug\HappySmile.pdb
+C:\Users\TEMP.SENACEDU.010\source\repos\HappySmile\HappySmile\obj\Debug\HappySmile.csproj.AssemblyReference.cache
+C:\Users\TEMP.SENACEDU.010\source\repos\HappySmile\HappySmile\obj\Debug\HappySmile.frmLogin.resources
+C:\Users\TEMP.SENACEDU.010\source\repos\HappySmile\HappySmile\obj\Debug\HappySmile.frmPrincipal.resources
+C:\Users\TEMP.SENACEDU.010\source\repos\HappySmile\HappySmile\obj\Debug\HappySmile.frmUsuario.resources
+C:\Users\TEMP.SENACEDU.010\source\repos\HappySmile\HappySmile\obj\Debug\HappySmile.Properties.Resources.resources
+C:\Users\TEMP.SENACEDU.010\source\repos\HappySmile\HappySmile\obj\Debug\HappySmile.csproj.GenerateResource.cache
+C:\Users\TEMP.SENACEDU.010\source\repos\HappySmile\HappySmile\obj\Debug\HappySmile.csproj.CoreCompileInputs.cache
+C:\Users\TEMP.SENACEDU.010\source\repos\HappySmile\HappySmile\obj\Debug\HappySmile.exe
+C:\Users\TEMP.SENACEDU.010\source\repos\HappySmile\HappySmile\obj\Debug\HappySmile.pdb
+C:\Users\TEMP.SENACEDU.010\source\repos\HappySmile\HappySmile\obj\Debug\HappySmile.frmSobre.resources

@@ -197,6 +197,7 @@
             this.txtPesquisa.Name = "txtPesquisa";
             this.txtPesquisa.Size = new System.Drawing.Size(265, 20);
             this.txtPesquisa.TabIndex = 0;
+            this.txtPesquisa.TextChanged += new System.EventHandler(this.txtPesquisa_TextChanged);
             // 
             // lblPesquisa
             // 
@@ -223,6 +224,8 @@
             this.grdDados.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.grdDados.Size = new System.Drawing.Size(342, 190);
             this.grdDados.TabIndex = 0;
+            this.grdDados.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.grdDados_CellContentClick);
+            this.grdDados.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.grdDados_CellDoubleClick);
             // 
             // grpLista
             // 
@@ -258,6 +261,7 @@
             this.btnLimpar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnLimpar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnLimpar.UseVisualStyleBackColor = true;
+            this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
             // 
             // grpPesquisa
             // 
@@ -288,6 +292,7 @@
             this.Name = "frmUsuario";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Senac - Happy Smile - Cadastro de Usuários";
+            this.Load += new System.EventHandler(this.frmUsuario_Load);
             this.grpStatus.ResumeLayout(false);
             this.grpStatus.PerformLayout();
             this.grpDados.ResumeLayout(false);

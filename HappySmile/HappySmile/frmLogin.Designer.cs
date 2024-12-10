@@ -35,8 +35,8 @@
             this.lblSenha = new System.Windows.Forms.Label();
             this.lblUsuario = new System.Windows.Forms.Label();
             this.btnOk = new System.Windows.Forms.Button();
-            this.pctImagem = new System.Windows.Forms.PictureBox();
             this.btnCancelar = new System.Windows.Forms.Button();
+            this.pctImagem = new System.Windows.Forms.PictureBox();
             this.grpLogin.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pctImagem)).BeginInit();
             this.SuspendLayout();
@@ -60,6 +60,7 @@
             this.txtSenha.Name = "txtSenha";
             this.txtSenha.Size = new System.Drawing.Size(135, 20);
             this.txtSenha.TabIndex = 3;
+            this.txtSenha.Text = "senac@123";
             this.txtSenha.UseSystemPasswordChar = true;
             // 
             // txtUsuario
@@ -68,6 +69,7 @@
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.Size = new System.Drawing.Size(135, 20);
             this.txtUsuario.TabIndex = 2;
+            this.txtUsuario.Text = "adm.admin";
             // 
             // lblSenha
             // 
@@ -100,16 +102,6 @@
             this.btnOk.UseVisualStyleBackColor = true;
             this.btnOk.Click += new System.EventHandler(this.btnOk_Click);
             // 
-            // pctImagem
-            // 
-            this.pctImagem.Image = global::HappySmile.Properties.Resources.Lock_1;
-            this.pctImagem.Location = new System.Drawing.Point(5, 5);
-            this.pctImagem.Name = "pctImagem";
-            this.pctImagem.Size = new System.Drawing.Size(91, 134);
-            this.pctImagem.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pctImagem.TabIndex = 4;
-            this.pctImagem.TabStop = false;
-            // 
             // btnCancelar
             // 
             this.btnCancelar.DialogResult = System.Windows.Forms.DialogResult.Cancel;
@@ -123,6 +115,16 @@
             this.btnCancelar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnCancelar.UseVisualStyleBackColor = true;
             this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
+            // 
+            // pctImagem
+            // 
+            this.pctImagem.Image = global::HappySmile.Properties.Resources.Lock_1;
+            this.pctImagem.Location = new System.Drawing.Point(5, 5);
+            this.pctImagem.Name = "pctImagem";
+            this.pctImagem.Size = new System.Drawing.Size(91, 134);
+            this.pctImagem.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pctImagem.TabIndex = 4;
+            this.pctImagem.TabStop = false;
             // 
             // frmLogin
             // 

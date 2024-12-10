@@ -68,6 +68,46 @@ namespace HappySmile
                 throw new Exception(ex.Message);
             }
         }
-       
+
+        public void Gravar()
+        {
+
+            try
+            {
+                lista.Clear();
+                if (id == 0)
+                {
+
+                    sql = "insert into tblUsuario \n";
+                    sql += "(login, nome, passoword, ativo) \n";
+                    sql += "values \n";
+                    sql += "(@login, @nome, @password, @ativo)";
+                }
+
+                else
+                {
+                    sql = "update tblUsuario \n";
+                    sql += "set \n";
+                    sql += "login      = @login, \n";
+                    sql += "nome       = @nome, \n";
+                    sql += "password   = @password,  \n";
+                    sql += "ativo      = @ativo \n";
+                    sql += "whre id     = @id \n";
+                    lista.Add(new SqlParameter("@id", id));
+                }
+
+                lista.Add(new SqlParameter("@login", login));
+                lista.Add(new SqlParameter("@nome", nome));
+                lista.Add(new SqlParameter("passoword", password));
+                lista.Add(new SqlParameter("@ativo", ativo));
+                acesso.ExecutarSQL(sql, lista);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+        }
     }
 }
+    
+        

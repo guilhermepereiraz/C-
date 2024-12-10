@@ -38,6 +38,22 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.mnuUsuarios = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuCadastroUsuario = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuPacientes = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuCadastroPacientes = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuCadastroConvenio = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuDentista = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuCadastroDentista = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuCadastroEspecialidade = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuAgendamentos = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuDominios = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuEspecialidade = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuFormadepagamento = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuProcedimentos = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuSituacaoAgendamento = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuTiposCliente = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuTiposTelefone = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuSobre = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuSair = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -86,7 +102,13 @@
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.mnuUsuarios});
+            this.mnuUsuarios,
+            this.mnuPacientes,
+            this.mnuDentista,
+            this.mnuAgendamentos,
+            this.mnuDominios,
+            this.mnuSobre,
+            this.mnuSair});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(800, 24);
@@ -107,6 +129,117 @@
             this.mnuCadastroUsuario.Size = new System.Drawing.Size(180, 22);
             this.mnuCadastroUsuario.Text = "&Cadastro Usuário";
             this.mnuCadastroUsuario.Click += new System.EventHandler(this.mnuCadastroUsuario_Click);
+            // 
+            // mnuPacientes
+            // 
+            this.mnuPacientes.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.mnuCadastroPacientes,
+            this.mnuCadastroConvenio});
+            this.mnuPacientes.Name = "mnuPacientes";
+            this.mnuPacientes.Size = new System.Drawing.Size(69, 20);
+            this.mnuPacientes.Text = "&Pacientes";
+            // 
+            // mnuCadastroPacientes
+            // 
+            this.mnuCadastroPacientes.Name = "mnuCadastroPacientes";
+            this.mnuCadastroPacientes.Size = new System.Drawing.Size(180, 22);
+            this.mnuCadastroPacientes.Text = "Cadastro Paciente";
+            // 
+            // mnuCadastroConvenio
+            // 
+            this.mnuCadastroConvenio.Name = "mnuCadastroConvenio";
+            this.mnuCadastroConvenio.Size = new System.Drawing.Size(180, 22);
+            this.mnuCadastroConvenio.Text = "Cadastro Convénio";
+            // 
+            // mnuDentista
+            // 
+            this.mnuDentista.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.mnuCadastroDentista,
+            this.mnuCadastroEspecialidade});
+            this.mnuDentista.Name = "mnuDentista";
+            this.mnuDentista.Size = new System.Drawing.Size(62, 20);
+            this.mnuDentista.Text = "&Dentista";
+            // 
+            // mnuCadastroDentista
+            // 
+            this.mnuCadastroDentista.Name = "mnuCadastroDentista";
+            this.mnuCadastroDentista.Size = new System.Drawing.Size(202, 22);
+            this.mnuCadastroDentista.Text = "Cadastro Dentista";
+            // 
+            // mnuCadastroEspecialidade
+            // 
+            this.mnuCadastroEspecialidade.Name = "mnuCadastroEspecialidade";
+            this.mnuCadastroEspecialidade.Size = new System.Drawing.Size(202, 22);
+            this.mnuCadastroEspecialidade.Text = "Cadastro Especifialidade";
+            // 
+            // mnuAgendamentos
+            // 
+            this.mnuAgendamentos.Name = "mnuAgendamentos";
+            this.mnuAgendamentos.Size = new System.Drawing.Size(100, 20);
+            this.mnuAgendamentos.Text = "Agendamentos";
+            // 
+            // mnuDominios
+            // 
+            this.mnuDominios.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.mnuEspecialidade,
+            this.mnuFormadepagamento,
+            this.mnuProcedimentos,
+            this.mnuSituacaoAgendamento,
+            this.mnuTiposCliente,
+            this.mnuTiposTelefone});
+            this.mnuDominios.Name = "mnuDominios";
+            this.mnuDominios.Size = new System.Drawing.Size(70, 20);
+            this.mnuDominios.Text = "Dominios";
+            // 
+            // mnuEspecialidade
+            // 
+            this.mnuEspecialidade.Name = "mnuEspecialidade";
+            this.mnuEspecialidade.Size = new System.Drawing.Size(219, 22);
+            this.mnuEspecialidade.Text = "Especialidade";
+            // 
+            // mnuFormadepagamento
+            // 
+            this.mnuFormadepagamento.Name = "mnuFormadepagamento";
+            this.mnuFormadepagamento.Size = new System.Drawing.Size(219, 22);
+            this.mnuFormadepagamento.Text = "Forma de Pagamento";
+            // 
+            // mnuProcedimentos
+            // 
+            this.mnuProcedimentos.Name = "mnuProcedimentos";
+            this.mnuProcedimentos.Size = new System.Drawing.Size(219, 22);
+            this.mnuProcedimentos.Text = "Procedimentos";
+            // 
+            // mnuSituacaoAgendamento
+            // 
+            this.mnuSituacaoAgendamento.Name = "mnuSituacaoAgendamento";
+            this.mnuSituacaoAgendamento.Size = new System.Drawing.Size(219, 22);
+            this.mnuSituacaoAgendamento.Text = "Situações de Agendamento";
+            // 
+            // mnuTiposCliente
+            // 
+            this.mnuTiposCliente.Name = "mnuTiposCliente";
+            this.mnuTiposCliente.Size = new System.Drawing.Size(219, 22);
+            this.mnuTiposCliente.Text = "Tipos de Clientes";
+            // 
+            // mnuTiposTelefone
+            // 
+            this.mnuTiposTelefone.Name = "mnuTiposTelefone";
+            this.mnuTiposTelefone.Size = new System.Drawing.Size(219, 22);
+            this.mnuTiposTelefone.Text = "Tipos de Telefone";
+            // 
+            // mnuSobre
+            // 
+            this.mnuSobre.Name = "mnuSobre";
+            this.mnuSobre.Size = new System.Drawing.Size(49, 20);
+            this.mnuSobre.Text = "Sobre";
+            this.mnuSobre.Click += new System.EventHandler(this.mnuSobre_Click);
+            // 
+            // mnuSair
+            // 
+            this.mnuSair.Name = "mnuSair";
+            this.mnuSair.Size = new System.Drawing.Size(38, 20);
+            this.mnuSair.Text = "Sair";
+            this.mnuSair.Click += new System.EventHandler(this.mnuSair_Click);
             // 
             // frmPrincipal
             // 
@@ -147,5 +280,21 @@
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem mnuUsuarios;
         private System.Windows.Forms.ToolStripMenuItem mnuCadastroUsuario;
+        private System.Windows.Forms.ToolStripMenuItem mnuPacientes;
+        private System.Windows.Forms.ToolStripMenuItem mnuCadastroPacientes;
+        private System.Windows.Forms.ToolStripMenuItem mnuCadastroConvenio;
+        private System.Windows.Forms.ToolStripMenuItem mnuDentista;
+        private System.Windows.Forms.ToolStripMenuItem mnuCadastroDentista;
+        private System.Windows.Forms.ToolStripMenuItem mnuCadastroEspecialidade;
+        private System.Windows.Forms.ToolStripMenuItem mnuAgendamentos;
+        private System.Windows.Forms.ToolStripMenuItem mnuDominios;
+        private System.Windows.Forms.ToolStripMenuItem mnuEspecialidade;
+        private System.Windows.Forms.ToolStripMenuItem mnuFormadepagamento;
+        private System.Windows.Forms.ToolStripMenuItem mnuProcedimentos;
+        private System.Windows.Forms.ToolStripMenuItem mnuSituacaoAgendamento;
+        private System.Windows.Forms.ToolStripMenuItem mnuTiposCliente;
+        private System.Windows.Forms.ToolStripMenuItem mnuTiposTelefone;
+        private System.Windows.Forms.ToolStripMenuItem mnuSobre;
+        private System.Windows.Forms.ToolStripMenuItem mnuSair;
     }
 }

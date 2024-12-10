@@ -68,6 +68,15 @@ namespace HappySmile
         {
             AbrirForm(new frmUsuario());
         }
-       
+
+        private void mnuSobre_Click(object sender, EventArgs e)
+        {
+            AbrirForm(new frmSobre());
+        }
+
+        private void mnuSair_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
